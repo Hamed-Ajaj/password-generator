@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans:wght@500&family=Karla:wght@500&family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Karla:wght@500&family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color:#1F2937; 
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+}
+h1{
+    font-family: 'karla';
+    margin:115px 144px 355px 52px;
+    color: white;
+}
+h1 span{
+    color:#4ADF86 ;
+}
+p{
+    font-family: 'Inter';
+    position: absolute;
+    bottom: 320px;
+    margin-left: 52px;
+    color:#D5D4D8 ;
+}
+button{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 15px 20px 15px 15px;
+    position: absolute;
+    border-radius: 5px;
+    inset:270px 324px 233px 67px ;
+    background: #4ADF86;
+    color: white;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.5;
+}
+.rect-1,
+.rect-2{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+}
+.rect-1{
+    position: absolute;
+    left: 52px;
+    top: 396px;
+}
+.rect-2{
+    position: absolute;
+    left: 287px;
+    top: 396px;
+
+}
+
+.pass-one
+{
+    color: #4ADF86;
+    top: -5px;
+    right:  20px;
+    width: 80%;
+}
+.pass-two{
+    color: #4ADF86;
+    top: -5px;
+    right:  20px;
+    width: 80%;
+}
+label,
+input[type="text"]{
+    position: absolute;
+    top: 320px;
+    left: 67px;
+    color: black;
+    padding: 7px;
+    width: 145px;
+    border-radius: 5px;
+}
+input[type="text"]::placeholder{
+    color: black;
+}
+#btn{
+    position: absolute;
+    top: 360px;
+    left: 67px;
+    background-color: blue;
+    width: 70px;
+    border: none;
+}
